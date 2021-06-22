@@ -1,0 +1,145 @@
+body{
+  font-family: 'Spartan', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.blog-s.text-center {
+}
+.blog-s h4 {
+  color: #3763eb;
+  text-rendering: u;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.blog-s h2 {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.blog-s span {
+  width: 50px;
+  height: 2px;
+  display: block;
+  background: #3763eb;
+  margin-bottom: 20px !important;
+  margin: auto;
+}
+
+.blog-content-top {
+    position: relative;
+  }
+  .blog-content-text.d-flex {
+	position: absolute;
+	bottom: 23px;
+	right: 21px;
+	background: blue;
+	padding: 6px 11px;
+}
+  .blog-content-text img {
+    width: 40px;
+    height: 40px;
+  }
+  .blog-content-text h4 {
+    color: #fff;
+    font-size: 13px;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+.blog-content-bottom {
+  margin-top: 40px;
+}
+.blog-content-bottom h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.blog-content-bottom p {
+  color: #606060;
+  font-weight: 500;
+}
+
+/* footer */
+
+
+.footer {
+  background: #081828;
+  padding-top: 90px;
+}
+.footer-content {
+}
+.footer-content img {
+  width: 174px;
+}
+.footer-content h4 {
+  color: #969ba8;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.footer-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-content ul li {
+  display: inline-block;
+}
+.footer-content ul li a {
+  display: inline-block;
+  padding: 0 12px;
+  font-size: 23px;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer-content .footer-item a {
+  display: block;
+  text-decoration: none;
+  color: #969ba8;
+  margin: 10px 0;
+  font-size: 14px;
+  transition: .5s;
+}
+.footer-content .footer-item a:hover{
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.footer-content h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 15px;
+}
+.footer-item {
+  margin-top: 35px;
+}
+.footer-content h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 25px;
+  background: #345edf;
+}
+
+
+.footer-bottom {
+  padding: 30px 0;
+  border-top: 1px solid #969ba8;
+  margin-top: 50px;
+}
+.footer-bottom h4 {
+  color: #969ba8;
+  font-size: 17px;
+  margin: 0;
+}
+
+
